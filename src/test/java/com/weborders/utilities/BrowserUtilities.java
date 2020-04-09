@@ -112,6 +112,8 @@ public class BrowserUtilities {
         return path;
     }
 
+    //comment
+
     /**
      * This method will switch webdriver from current window
      * to target window based on page title
