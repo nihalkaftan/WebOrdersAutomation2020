@@ -17,6 +17,11 @@ public class Driver {
 
     }
 
+    /**
+     * Synchronized keyword makes method thread safe.
+     * It ensures that only 1 thread can use
+     * @return
+     */
     public synchronized static WebDriver getDriver() {
         //if webDriver object doesn't exist
         //create it
